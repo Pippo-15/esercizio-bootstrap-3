@@ -1,0 +1,77 @@
+:root {
+    --yellow: rgb(214, 195, 48);
+    --main: rgb(27, 21, 64);
+    --acc: rgb(187, 38, 193);
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bg-1 {
+    background-image: url(./file/bg-1.jpg);
+}
+
+.bg-2 {
+    background-color: var(--main);
+}
+
+.bg-3 {
+    background-image: url(./file/bg-2.jpg);
+}
+
+.bg-form {
+    background-color: var(--main);
+    padding: 70px 20px;
+    border-radius: 15px;
+    top: 100px;
+}
+
+input {
+    background-color: var(--main);
+    border: none;
+    border-bottom: 1px solid var(--acc);
+}
+
+.btn-custom {
+    border: 1px solid var(--yellow);
+}
+
+.btn-custom:hover {
+    background-color: var(--yellow);
+    color: black;
+}
+
+.btn-custom-2 {
+    border: 1px solid;
+    background-color:  var(--yellow);
+}
+
+.circle {
+    width: 70px;
+    height: 70px;
+    background-color: var(--yellow);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.color-text {
+    color: var(--yellow);
+}
+
+.bg-4 {
+    background-color: rgb(17, 13, 41);
+    padding: 100px;
+}
+
+.bg-5 {
+    background-image: url("./file/bg-3.jpg");
+    background-size: cover;
+    background-position: center;
+}
